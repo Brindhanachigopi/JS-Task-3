@@ -8,7 +8,7 @@ xhr.send();
 xhr.onload = () => {
   let xhr1=JSON.parse(xhr.response);
   for(let i = 0 ; i< xhr1.length ; i++){
- console.log(xhr1[i].flags);   
+ console.log(xhr1[i].flags.png);   
 
 }
 };
